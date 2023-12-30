@@ -1402,44 +1402,47 @@ body {
 /* Add these styles at the end of your existing CSS */
 
 /* Contact Section Styles */
-.contact-section {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
-	box-sizing: border-box;
-}
-
 .contactForm {
-	flex: 1;
-	max-width: 600px;
-	margin-right: 20px;
-	color: --body-bg;
-}
-
-.contactForm form {
 	width: 100%;
-}
-
-.col {
-	padding-left: 30px;
-}
-
-.form-group {
-	padding-left: x;
-}
-
-.contactForm input,
-.contactForm textarea {
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 30px;
+	box-sizing: border-box;
+  }
+  
+  .contactForm label,
+  .contactForm input,
+  .contactForm textarea {
 	width: 100%;
 	margin-bottom: 15px;
-}
-
-.contactForm textarea {
+  }
+  
+  .contactForm textarea {
 	resize: vertical;
-}
+  }
+  
+  @media only screen and (max-width: 768px) {
+	.webloper-sm {
+	  flex-direction: column;
+	  align-items: center;
+	}
+  
+	.contactForm {
+	  padding: 20px;
+	}
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1457,14 +1460,3 @@ body {
 	background-color: #1f7d5f;
 	color: #fff;
 }
-
-#btn {
-	padding-left: 30px;
-}
-
-
-@media only screen and (max-width: 768px) {
-	.contact-section .btn {
-		flex-direction: column;
-		align-items: center;
-	}
