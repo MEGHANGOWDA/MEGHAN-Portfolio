@@ -1378,6 +1378,26 @@ body {
 /* ----------------------------------------contact---------------------- */
 
 
+.contactForm {
+	width: 550px;
+	color: --body-bg;
+	border-radius: 100px;
+	padding: 50px;
+	text-align: center;
+	text-align: 15px;
+}
+
+
+.contactForm input {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #777777;
+	display: flex;
+	font-size: 16px;
+	outline: none;
+
+}
 
 /* Add these styles at the end of your existing CSS */
 
@@ -1403,7 +1423,14 @@ body {
 	width: 100%;
 }
 
-.contactForm label,
+.col {
+	padding-left: 30px;
+}
+
+.form-group {
+	padding-left: x;
+}
+
 .contactForm input,
 .contactForm textarea {
 	width: 100%;
@@ -1412,11 +1439,6 @@ body {
 
 .contactForm textarea {
 	resize: vertical;
-}
-
-.webloper-sm {
-	flex: 1;
-	max-width: 200px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1439,4 +1461,8 @@ body {
 	.btn:hover {
 		background-color: #1f7d5f;
 		color: #fff;
+	}
+
+	#btn {
+		padding-left: 30px;
 	}
