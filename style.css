@@ -1378,38 +1378,65 @@ body {
 /* ----------------------------------------contact---------------------- */
 
 
+
+/* Add these styles at the end of your existing CSS */
+
+/* Contact Section Styles */
+.contact-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
 .contactForm {
-	width: 550px;
-	color: --body-bg;
-	border-radius: 100px;
-	padding: 50px;
-	text-align: center;
-	text-align: 15px;
-}
-
-
-.contactForm input {
-	width: 100%;
-	padding: 10px;
-	border: none;
-	border-bottom: 2px solid #777777;
-	margin-bottom: 20px;
-	font-size: 16px;
-	outline: none;
-
-}
-
-.btn {
-	border: none !important;
-	cursor: pointer;
-	background-color: #32cd9c;
-	margin: 15px 0;
-	font-size: 16px;
-	width: 100%;
-	padding: 14px;
-}
-
-.btn:hover {
-	background-color: #1f7d5f;
+	flex: 1;
+	max-width: 600px;
+	margin-right: 20px;
 	color: --body-bg;
 }
+
+.contactForm form {
+	width: 100%;
+}
+
+.contactForm label,
+.contactForm input,
+.contactForm textarea {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contactForm textarea {
+	resize: vertical;
+}
+
+.webloper-sm {
+	flex: 1;
+	max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+	.contact-section {
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.btn {
+		border: none !important;
+		cursor: pointer;
+		background-color: #32cd9c;
+		margin: 15px 0;
+		font-size: 16px;
+		width: 100%;
+		padding: 14px;
+	}
+
+	.btn:hover {
+		background-color: #1f7d5f;
+		color: #fff;
+	}
