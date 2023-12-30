@@ -722,7 +722,7 @@ section {
 }
 
 .contactForm {
-	/* display: flex; */
+	display: flex;
 	gap: 3em;
 }
 
