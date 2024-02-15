@@ -1166,7 +1166,7 @@ ul1 li1 a {
 }
 
 .skill_bar .bar .react {
-	width: 75%;
+	width: 70%;
 	animation: react 2s;
 }
 
@@ -1176,7 +1176,7 @@ ul1 li1 a {
 	}
 
 	100% {
-		width: 75%;
+		width: 70%;
 	}
 }
 
@@ -1195,12 +1195,12 @@ ul1 li1 a {
 	}
 }
 
-.skill_bar .bar .Figma {
+.skill_bar .bar .Express.js {
 	width: 65%;
-	animation: Figma 2s;
+	animation: Express.js 2s;
 }
 
-@keyframes Figma {
+@keyframes Express.js {
 	0% {
 		width: 0%;
 	}
@@ -1210,9 +1210,9 @@ ul1 li1 a {
 	}
 }
 
-.skill_bar .bar .Adobe {
+.skill_bar .bar .Node.js {
 	width: 60%;
-	animation: Adobe 2s;
+	animation: Node.js 2s;
 }
 
 @keyframes Adobe {
@@ -1408,30 +1408,30 @@ body {
 	margin: 0 auto;
 	padding: 30px;
 	box-sizing: border-box;
-  }
-  
-  .contactForm label,
-  .contactForm input,
-  .contactForm textarea {
+}
+
+.contactForm label,
+.contactForm input,
+.contactForm textarea {
 	width: 100%;
 	margin-bottom: 15px;
-  }
-  
-  .contactForm textarea {
+}
+
+.contactForm textarea {
 	resize: vertical;
-  }
-  
-  @media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
 	.webloper-sm {
-	  flex-direction: column;
-	  align-items: center;
+		flex-direction: column;
+		align-items: center;
 	}
-  
+
 	.contactForm {
-	  padding: 20px;
+		padding: 20px;
 	}
-  }
-  
+}
+
 
 
 
